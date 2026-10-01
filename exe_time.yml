@@ -1,0 +1,7 @@
+name: Trigger get on schedule
+on:
+  schedule:
+    - cron: '59 * * * *' #-TEST EVERY HOUR
+    # - cron: '30 23 1 * *'
+    jobs:
+      run:
